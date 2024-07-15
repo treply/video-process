@@ -112,7 +112,7 @@ KEYPOINT_EDGE_INDS_TO_COLOR = {
 #         cv2.line(image, (int(point_s_x), int(point_s_y)), (int(point_e_x), int(point_e_y)),  (128, 0, 0), 1)
 #     return image
 
-#image_dir = "E:/DataSet/SPORTE/dataset/images_s/"
+#image_dir = "E:/DataSet/SPORTE/dataset/images_s/"1
 #save_dir = "E:/DataSet/SPORTE/dataset/images_labels_s1/"
 # image_dir = "D:/images/"
 # save_dir = "D:/images_labels_s1/"

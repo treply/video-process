@@ -1,6 +1,6 @@
 import os
 
-# 指定文件夹路径
+# 指定文件夹路径1
 folder_path = 'C:/Users/admin/Desktop/testDataset_7.10/frames_bili_label_s2'
 
 # 获取文件夹中所有的文件列表

@@ -34,7 +34,7 @@ def extract_frames(video_path, save_path, initial_interval=1, following_interval
     
     cap.release()
     print(f"Video processing complete.")
-    video_counter += 1  # 处理完一个视频后，增加计数器
+    video_counter += 1  # 处理完一个视频后，增加计数器1
 
 
 def process_videos_in_folder(folder_path, save_folder):

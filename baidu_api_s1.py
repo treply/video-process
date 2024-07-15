@@ -145,7 +145,7 @@ def process_folder(folder_path):
             txt_path = os.path.join(folder_path, filename)
             image_path = txt_path.replace("frames_label", "frames")
             image_path = image_path.replace(".txt", ".jpg")
-            image_name = filename[:-4] + '.jpg'  # 假设图片与TXT文件名相同，只是扩展名不同
+            image_name = filename[:-4] + '.jpg'  # 假设图片与TXT文件名相同，只是扩展名不同1
 
            
             

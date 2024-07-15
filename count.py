@@ -2,7 +2,7 @@ import os
 import fnmatch
 
 def count_images_in_dir(directory):
-    image_extensions = ['*.jpg', '*.png', '*.jpeg', '*.gif']  # 添加你想统计的图片格式
+    image_extensions = ['*.jpg', '*.png', '*.jpeg', '*.gif']  # 添加你想统计的图片格式1
     image_count = 0
     
     for root, dirs, files in os.walk(directory):

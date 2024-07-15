@@ -38,7 +38,7 @@ def read_txt(file_path):
         lines = file.readlines()
         for line in lines:
             # 假设每行数据格式为：[xmin, ymin, xmax, ymax, p1x, p1y, p2x, p2y, ...]
-            # 分割并转换为浮点数，然后添加到当前行的对象数据列表中
+            # 分割并转换为浮点数，然后添加到当前行的对象数据列表中1
             data = [float(i) for i in line.strip().split()]
             objects_data.append(data)
     return objects_data

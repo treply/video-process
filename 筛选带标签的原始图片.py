@@ -1,7 +1,7 @@
 import os
 import shutil
 
-# 指定源目录和目标目录
+# 指定源目录和目标目录1
 source_dir = 'C:/Users/admin/Desktop/testDataset_7.10/frames_bili'
 label_dir = 'C:/Users/admin/Desktop/frames_label'
 target_dir = 'C:/Users/admin/Desktop/frames'

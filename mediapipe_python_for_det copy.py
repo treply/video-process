@@ -6,7 +6,7 @@ from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 import numpy as np
 model_path = 'D:/set-up/pose_landmarker_heavy.task'
-
+#1
 KEYPOINT_EDGE_INDS_TO_COLOR = {
     (0, 1): 'm',
     (0, 2): 'c',
